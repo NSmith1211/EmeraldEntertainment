@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="..\CSS\style.css">
+  <link rel="shortcut icon" href="../img/Emerald-Icon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Playfair+Display+SC&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  <title>Emerald Entertainment Independent Filmhouse</title>
+  <script type="text/javascript" src="../JS/main.js"></script>
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="content" style="order:1;">
+    <ul class="list">
+      <li id="nav-menu-a">
+        <a class="nav-menu1" href="index.html">
+          <img src="../img/EmeraldLogo.jpg" id="Emerald-Home">
+        </a>
+      </li>
+      <li id="nav-menu-b">
+        <a class="nav-menu2" href="#Films">
+          Featured Films
+        </a>
+      </li>
+      <li id="nav-menu-c">
+        <a class="nav-menu3" href="#Director">
+          Director/Writer
+        </a>
+      </li>
+      <li id="nav-menu-d">
+        <a class="nav-menu4" href="#Socials">
+          Social Media
+        </a>
+      </li>
+      <li id="nav-menu-e">
+        <a class="nav-menu5" href="Extras.html">
+          Extras
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="wrapper" style="order:2;">
+    <input placeholder="Search" type="text" class="search">
+    <div id="enter">
+    <button id="searchbtn">
+    <img class="Search-Icon" id="magnify" src="../img/Search.png">
+    </button>
+    </div>
+  </div>
+
+</nav>
+
+
+
+
+<nav id="mobile-nav">
+  <span onclick="openNav()" id="dropdown">
+    <button class="dropbtn">
+    <img src="../img/Hamburger.png" id="hamburger">
+    </button>
+  </span>
+
+  <div id="hide1" class="mobile-nav-icon">
+    <a  href="index.html">
+      <img src="../img/EmeraldLogo.jpg" id="Emerald-Home-Mobile">
+    </a>
+  </div>
+
+  <div id="hide2" class="mobile-wrapper">
+    <input placeholder="Search" type="text" class="search-mobile">
+    <img class="Search-Icon" id="magnify" src="../img/Search.png">
+  </div>
+
+</nav>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a class="mobile-link" href="#Films">
+    Featured Films
+    </a>
+
+    <a class="mobile-link" href="#Director">
+    Director/Writer
+    </a>
+
+    <a class="mobile-link" href="#Socials">
+    Social Media
+    </a>
+
+    <a class="mobile-link" href="Extras.html">
+    Extras
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="banner-container">
+<img src="../img/EmeraldEntertainment.jpg" id="Banner-image">
+</div>
+
+<div class="section-1">
+<p id="Intro" width="50%">
+  "Emerald Entertainment Independent Filmhouse produces short
+  films with gripping storylines, palpable tension, and an exceptional level of
+  audio and visual fidelity that is unprecented.
+  Emerald Entertainment's latest film "Avarice" has been selected to multiple film
+  festivals in recogintion of the incredible work of this studio."</p>
+</div>
+
+<h2 class="subtitle" align="center" id="Films">Featured Films</h2>
+
+
+
+<div class=featured-films>
+
+  <div id="column1" style="order:1">
+
+    <div id="sirens" style="order:1;  flex: 1 1 ; align-self: flex-start;">
+      <iframe width="100%" height="100%" class="film" src="https://www.youtube.com/embed/BBBivcnntmM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="desc-1" style="order:2;  flex: 1 1 ; align-self: flex-end;">
+      From Director Ryan Printy comes his debut short film which follows
+      a college student's (Josh Banaszak) struggle in dealing with the news
+      that the world is ending and his attempts to discover who he truly is in his final hours.
+    </div>
+
+  </div>
+
+  <div id="column2" style="order:2">
+
+    <div id="avarice" style="order:1; flex: 1 1 ; align-self: flex-start;">
+      <iframe width="100%" height="100%" class="flim" src="https://www.youtube.com/embed/AWKpB1nvQTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+    <div id="desc-2" style="order:2;  flex: 1 1 ; align-self: flex-end;">
+    After discovering a large sum of cash tied to a body in the lake, three fishermen
+    must decide how to proceed. As greed weaves distrust in the group,
+    they battle with not only each other, but also a more sinister force.
+    Avarice is the second short film by writer/director Ryan Printy.
+    </div>
+
+  </div>
+
+</div>
+
+<h2 class="subtitle" id="Director" align="center">Meet the Director/Writer</h2>
+
+<div class="RJEP-container">
+
+  <div id="Ryan" style="order:1; align-self:flex-start;">
+    <img class="Printy" src="../img/Ryan-Printy.jpg">
+  </div>
+
+  <div id="Ryan-Desc1" style="order:2;flex:1 1; align-self:center;">
+    Ryan Printy, age 23, is a long-standing student of cinema, television, and the behind-the-scenes
+    production of making film come alive on the silver screen. Beyond simply writing and directing his own
+    movies Ryan spends countless hours further in post-production creating music, editing footage, and balancing audio levels.
+    Mr. Printy's passion for filmmaking and commitment to autheticity and detail is inspired by one of his
+    all-time favorite directors: Christopher Nolan.
+  </div>
+
+</div>
+
+<div class="RJEP-container2">
+
+  <div id="LMU" style="order:2; align-self:flex-start;">
+    <img class="School" src="../img/LMU.png">
+  </div>
+
+  <div id="Ryan-Desc2" style="order:1;flex:1 1; align-self:center;">
+    After graduating from the Ohio State University in the class of 2020 with a bachelor's degree in City &
+    Regional Planning, Ryan was accepted into the Film and TV Production Program at Loyola Marymount University
+    in Los Angeles, California where he is currently a student. There he will continue to develop and master
+    new techniques and abilities to produce more capitvating stories and cinematic works of art to bring to the silver screen.
+  </div>
+
+</div>
+
+
+<h2 class="subtitle" id="Socials" align="center">Find Us On Social Media</h2>
+
+
+<div id="footer-container">
+
+  <div id="footer-Instagram">
+    <a href="https://www.instagram.com/emeraldentertainmentfilm/" class="link" target="_blank" title="Instagram">
+    <img class="social-Instagram" src="../img/Instagram.png">
+    </a>
+  </div>
+
+  <div id="footer-Youtube">
+    <a href="https://www.youtube.com/channel/UCudr339dRIOnhzSwE6mBB7Q" class="link" target="_blank" title="Youtube">
+    <img class="social-Youtube" src="../img/Youtube.png">
+    </a>
+  </div>
+
+  <div id="footer-Email">
+    <a href="mailto:film.emerald@gmail.com" class="link" target="_blank" title="Email">
+    <img class="social-Email" src="../img/Email.png">
+    </a>
+  </div>
+
+  <div id="footer-Facebook">
+    <a href="https://www.facebook.com/emeraldentertainmentfilm/" class="link" target="_blank" title="Facebook">
+    <img class="social-Facebook" src="../img/Facebook.png">
+    </a>
+  </div>
+
+</div>
+
+<p class="fine-print"> © Emerald Entertainment Independent Filmhouse | All Rights Reserved | 2021</p>
+
+
+
+
+
+
+</body>
+</html>

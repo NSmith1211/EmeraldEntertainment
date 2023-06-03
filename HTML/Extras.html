@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="..\CSS\styleExtras.css">
+  <link rel="shortcut icon" href="../img/Emerald-Icon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Playfair+Display+SC&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+  <title>Emerald Entertainment Independent Filmhouse</title>
+</head>
+
+<body>
+
+
+<nav class="nav">
+  <div class="content" style="order:1;">
+    <ul class="list">
+      <li id="nav-menu-a">
+        <a class="nav-menu1" href="index.html">
+          <img src="../img/EmeraldLogo.jpg" id="Emerald-Home">
+        </a>
+      </li>
+      <li id="nav-menu-b">
+        <a class="nav-menu2" href="index.html#Films">
+          Featured Films
+        </a>
+      </li>
+      <li id="nav-menu-c">
+        <a class="nav-menu3" href="index.html#Director">
+          Director/Writer
+        </a>
+      </li>
+      <li id="nav-menu-d">
+        <a class="nav-menu4" href="index.html#Socials">
+          Social Media
+        </a>
+      </li>
+      <li id="nav-menu-e">
+        <a class="nav-menu5" href="Extras.html">
+          Extras
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="wrapper" style="order:2;">
+    <input placeholder="Search" type="text" class="search">
+    <div id="enter">
+    <button id="searchbtn">
+    <img class="Search-Icon" id="magnify" src="../img/Search.png">
+    </button>
+    </div>
+  </div>
+
+</nav>
+
+<nav id="mobile-nav">
+
+  <span onclick="openNav()" id="dropdown">
+    <button class="dropbtn">
+    <img src="../img/Hamburger.png" id="hamburger">
+    </button>
+  </span>
+
+  <div id="hide1" class="mobile-nav-icon">
+    <a  href="index.html">
+      <img src="../img/EmeraldLogo.jpg" id="Emerald-Home-Mobile">
+    </a>
+  </div>
+
+  <div id="hide2" class="mobile-wrapper">
+    <input placeholder="Search" type="text" class="search-mobile">
+    <img class="Search-Icon" id="magnify" src="../img/Search.png">
+  </div>
+
+</nav>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a class="mobile-link" href="index.html#Films">
+    Featured Films
+    </a>
+
+    <a class="mobile-link" href="index.html#Director">
+    Director/Writer
+    </a>
+
+    <a class="mobile-link" href="index.html#Socials">
+    Social Media
+    </a>
+
+    <a class="mobile-link" href="Extras.html">
+    Extras
+    </a>
+  </div>
+</div>
+
+<script>
+/* Open */
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+  document.getElementById("myNav").style.width = "100%";
+  document.getElementById("myNav").style.display = "block";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+
+
+
+
+<h2 id="Extras">Extras/Behind the Scenes</h2>
+
+<p>Below you can find trailers, stills, clips, and more behind the scenes content
+  from the prodcutions of Emerald Entertainment.
+</p>
+
+<div class="grid-container">
+  <div class="grid-item">
+    <iframe class="bts-content" src="https://www.youtube.com/embed/ite_pZGyLOs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="grid-item">
+    <iframe class="bts-content" src="https://www.youtube.com/embed/zuu3GEgbGlI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/screenread.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/script.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/water-1.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/sunset-1.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/sunset-2.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/sunset-3.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/escape-1.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/truck-1.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/filming-1.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/theboys-2.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/dark-1.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/teaser-1.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/building-1.jpg">
+  </div>
+  <div class="grid-item">
+    <img class="bts-content" src="../BTS/building-2.jpg">
+  </div>
+</div>
+
+<div id="footer-container">
+
+  <div id="footer-Instagram">
+    <a href="https://www.instagram.com/emeraldentertainmentfilm/" class="link" target="_blank" title="Instagram">
+    <img class="social-Instagram" src="../img/Instagram.png">
+    </a>
+  </div>
+
+  <div id="footer-Youtube">
+    <a href="https://www.youtube.com/channel/UCudr339dRIOnhzSwE6mBB7Q" class="link" target="_blank" title="Youtube">
+    <img class="social-Youtube" src="../img/Youtube.png">
+    </a>
+  </div>
+
+  <div id="footer-Email">
+    <a href="mailto:film.emerald@gmail.com" class="link" target="_blank" title="Email">
+    <img class="social-Email" src="../img/Email.png">
+    </a>
+  </div>
+
+  <div id="footer-Facebook">
+    <a href="https://www.facebook.com/emeraldentertainmentfilm/" class="link" target="_blank" title="Facebook">
+    <img class="social-Facebook" src="../img/Facebook.png">
+    </a>
+  </div>
+
+</div>
+
+<p class="fine-print">© Emerald Entertainment Independent Filmhouse | All Rights Reserved | 2021</p>
+
+
+
+
+
+</body>
+
+</html>
